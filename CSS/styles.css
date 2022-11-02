@@ -76,6 +76,7 @@ a:hover{
     font-size: 90px;
     margin: 10px 0;
     color: #fff;
+    text-align: start;
 }
 #home.content p{
     width: 90%;
@@ -83,7 +84,7 @@ a:hover{
     line-height: 1.6;
     color: red;
 }
-#about, #next, #services, #contact{
+#about{
     position: relative;
     display: flex;
     justify-content: space-around;
@@ -99,10 +100,24 @@ a:hover{
     padding: 15% 0;
 }
 .content h1 {
-    font-size: 50px;
+    font-size: 100px;
     text-transform: uppercase;
+    text-align: center;
 }
 .content p{
     font-size: 24px;
     line-height: 50px;
+}
+btn btn-primary{
+    color: red;
+}
+.button {
+    color: white;
+    font-size: xx-large;
+    background-color:red;
+}
+.button1 {
+    color: white;
+    font-size: xx-large;
+    background-color:red;
 }
